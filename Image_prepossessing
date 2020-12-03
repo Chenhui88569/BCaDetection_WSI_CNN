@@ -7,16 +7,18 @@ import numpy as np
 #used prior to CNN model training
 #four subtasks are included in function: sampling, non-tissue regions removing,
 #color space transformation and tile labeling
+#Raw tiles, unprocessed but labelled tiles,as well as processed and labelled tiles are stored 
 
-def img_sampling_labeling(input_path_WSI,input_path_mask,output_path_processed_positive
-                               ,output_path_processed_negative,output_path_unprocessed_positive,output_path_unprocessed_negative):
+def img_sampling_labeling(
+    input_path_WSI,input_path_mask,output_path_RawTile,output_path_processed_positive,output_path_processed_negative, 
+    output_path_unprocessed_positive,output_path_unprocessed_negative):
+    
     positive_collection = []
     negative_collection = []
     non_tissue_collection = []
     tile_size = (101, 101)
     offset = (101, 101)
     #remove and recreate directories 
-    #Raw tiles, unprocessed but labelled tiles,as well as processed and labelled tiles are stored 
     if  os.path.exists(output_path_RawTile) :
         shutil.rmtree(output_path_RawTile)     
     os.makedirs(output_path_RawTile)
