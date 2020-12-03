@@ -4,6 +4,10 @@ import os
 import shutil
 import numpy as np
 
+#used prior to CNN model training
+#four subtasks are included in function: sampling, non-tissue regions removing,
+#color space transformation and tile labeling
+
 def img_sampling_labeling(input_path_WSI,input_path_mask,output_path_processed_positive
                                ,output_path_processed_negative,output_path_unprocessed_positive,output_path_unprocessed_negative):
     positive_collection = []
