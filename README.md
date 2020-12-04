@@ -17,36 +17,22 @@ Two model architectures are used
 Two different datasets are used
 1. CWUR-HUP-TCGA cohort(Dataset1)
  CWUR-HUP-TCGA files used in training and validation set. CINJ used in test set
-$$
-\begin{array}{|l|l|l|l|l|}
-\hline & \text { CWRU } & \text { HUP } & \text { TCGA } & \text { CINJ } \\
-\hline \text { Training:positive } & 3000 & 2000 & 2000 & 0 \\
-\hline \text { Training:negative } & 3000 & 2000 & 2000 & 0 \\
-\hline \text { Training: total } & 6000 & 4000 & 4000 & 0 \\
-\hline \text { Validation:positive } & 500 & 500 & 500 & 0 \\
-\hline \text { Validation:negative } & 500 & 500 & 500 & 0 \\
-\hline \text { Validation: total } & 1000 & 1000 & 1000 & 0 \\
-\hline \text { Testing:positive } & 0 & 0 & 0 & 1500 \\
-\hline \text { Testing:negative } & 0 & 0 & 0 & 1500 \\
-\hline \text { Testing:total } & 0 & 0 & 0 & 3000 \\
-\hline
-\end{array}
-$$
+ 
  
 
 2. CWUR-HUP-TCGA-CINJ cohort(Dataset2)
  CWUR-HUP-TCGA-CINJ files used in training and validation set. CINJ used in test set
- |            Datatset         | CWRU | HUP  | TCGA | CINJ |
+    |                     | CWRU | HUP  | TCGA | CINJ |
    | ------------------- | ---- | ---- | ---- | ---- |
-   | Training:positive   | 1750 | 1750 | 1750 | 1750 |
-   | Training:negative   | 1750 | 1750 | 1750 | 1750 |
-   | Total training      | 3500 | 3500 | 3500 | 3500 |
-   | Validation:positive | 375  | 375  | 375  | 375  |
-   | Validation:negative | 375  | 375  | 375  | 375  |
-   | Validation:total    | 750  | 750  | 750  | 750  |
+   | Training:positive   | 3000 | 2000 | 2000 | 0    |
+   | Training:negative   | 3000 | 2000 | 2000 | 0    |
+   | Training: total     | 6000 | 4000 | 4000 | 0    |
+   | Validation:positive | 500  | 500  | 500  | 0    |
+   | Validation:negative | 500  | 500  | 500  | 0    |
+   | Validation: total   | 1000 | 1000 | 1000 | 0    |
    | Testing:positive    | 0    | 0    | 0    | 1500 |
    | Testing:negative    | 0    | 0    | 0    | 1500 |
-   | Testing: total      | 0    | 0    | 0    | 3000 |
+   | Testing:total       | 0    | 0    | 0    | 3000 |
  
 
 
