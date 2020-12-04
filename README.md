@@ -17,7 +17,7 @@ Two model architectures are used
 ### Dataset constitution
 Two different datasets are used
 1. CWUR-HUP-TCGA cohort(Dataset1) <br>
- CWUR-HUP-TCGA files used in training and validation set. CINJ used in test set
+ CWUR-HUP-TCGA files used in training and validation set and CINJ used in test set.<br>
  The numbers of image tiles extracted from four institutions are shown in the table
     |                     | CWRU | HUP  | TCGA | CINJ |
    | ------------------- | ---- | ---- | ---- | ---- |
