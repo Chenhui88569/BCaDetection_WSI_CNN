@@ -1,6 +1,6 @@
 ## ECSE484_project_WSIClassification_CNN
-### The projdect workflow is shown below
-<img src="https://tva1.sinaimg.cn/large/0081Kckwly1glb1stt8x7j31970u0gmu.jpg" alt="ECSE 484_project_work flow" style="zoom: 5%;" />
+### The projdect workflow 
+<img src="https://tva1.sinaimg.cn/large/0081Kckwly1glb1stt8x7j31970u0gmu.jpg" alt="ECSE 484_project_work flow" style="5%" />
 
 ### CNN model configuation 
 Two model architectures are used
