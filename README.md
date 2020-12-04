@@ -17,7 +17,7 @@ Two model architectures are used
 Two different datasets are used
 1. CWUR-HUP-TCGA cohort(Dataset1)
  CWUR-HUP-TCGA files used in training and validation set. CINJ used in test set
- |                     | CWRU | HUP  | TCGA | CINJ |
+ |          Dataset           | CWRU | HUP  | TCGA | CINJ |
    | ------------------- | ---- | ---- | ---- | ---- |
    | Training:positive   | 3000 | 2000 | 2000 | 0    |
    | Training:negative   | 3000 | 2000 | 2000 | 0    |
@@ -32,7 +32,7 @@ Two different datasets are used
 
 2. CWUR-HUP-TCGA-CINJ cohort(Dataset2)
  CWUR-HUP-TCGA-CINJ files used in training and validation set. CINJ used in test set
- |                     | CWRU | HUP  | TCGA | CINJ |
+ |            Datatset         | CWRU | HUP  | TCGA | CINJ |
    | ------------------- | ---- | ---- | ---- | ---- |
    | Training:positive   | 1750 | 1750 | 1750 | 1750 |
    | Training:negative   | 1750 | 1750 | 1750 | 1750 |
