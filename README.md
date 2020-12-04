@@ -3,8 +3,9 @@
 <img src="https://tva1.sinaimg.cn/large/0081Kckwly1glb1stt8x7j31970u0gmu.jpg" alt="ECSE 484_project_work flow" style="5%" />
 
 Three different models are generated 
-1. 4Conv_2FC + CWUR-HUP-TCGA cohort(Dataset1)
-2. 4Conv_2FC + CWUR-HUP-TCGA-CINJ cohort(Dataset2)
+1. 4Conv_2FC + CWUR-HUP-TCGA cohort(Dataset1) 
+2. 4Conv_2FC + CWUR-HUP-TCGA-CINJ cohort(Dataset2) 
+3. 3Conv_2FC + CWUR-HUP-TCGA-CINJ cohort(Dataset2)
 ### CNN model configuation 
 Two model architectures are used
 1. 4Conv_2FC<br>
@@ -15,7 +16,7 @@ Two model architectures are used
 
 ### Dataset constitution
 Two different datasets are used
-1. CWUR-HUP-TCGA cohort(Dataset1)
+1. CWUR-HUP-TCGA cohort(Dataset1) 
  CWUR-HUP-TCGA files used in training and validation set. CINJ used in test set
     |                     | CWRU | HUP  | TCGA | CINJ |
    | ------------------- | ---- | ---- | ---- | ---- |
@@ -29,7 +30,7 @@ Two different datasets are used
    | Testing:negative    | 0    | 0    | 0    | 1500 |
    | Testing:total       | 0    | 0    | 0    | 3000 |
 
-2. CWUR-HUP-TCGA-CINJ cohort(Dataset2)
+2. CWUR-HUP-TCGA-CINJ cohort(Dataset2) 
  CWUR-HUP-TCGA-CINJ files used in training and validation set. CINJ used in test set
       |                     | CWRU | HUP  | TCGA | CINJ |
    | ------------------- | ---- | ---- | ---- | ---- |
