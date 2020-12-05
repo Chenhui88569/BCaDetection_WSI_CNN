@@ -1,6 +1,6 @@
 ## ECSE484_project_WSIClassification_CNN
 ### The projdect workflow 
-<img src="https://tva1.sinaimg.cn/large/0081Kckwly1glcmnbpempj30xd0u0dh0.jpg" alt="ECSE 484_project_work flow_new" style="zoom:33%;" />
+<img src="https://tva1.sinaimg.cn/large/0081Kckwly1glcmnbpempj30xd0u0dh0.jpg" alt="ECSE 484_project_work flow_new" style="zoom:5%;" />
 
 Three different models are generated 
 1. 4Conv_2FC + CWUR-HUP-TCGA cohort(Dataset1) 
@@ -45,7 +45,7 @@ Two different datasets are used
    | Testing:negative    | 0    | 0    | 0    | 1500 |
    | Testing: total      | 0    | 0    | 0    | 3000 |
    
-   ### Probability map
+### Probability map
    The Probability map is obtain by following the following procedure
 1. Load model saved in disc
 2. Regularly sample a input WSI and execute image preprocessing. The position of each individual tile is tracked
