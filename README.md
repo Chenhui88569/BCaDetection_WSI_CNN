@@ -1,6 +1,6 @@
 ## ECSE484_project_WSIClassification_CNN
 ### The projdect workflow 
-<img src="https://tva1.sinaimg.cn/large/0081Kckwly1glcmnbpempj30xd0u0dh0.jpg" alt="ECSE 484_project_work flow_new" style="zoom:5%;" />
+<img src="https://tva1.sinaimg.cn/large/0081Kckwly1glcp49txbxj30xd0u0gms.jpg" alt="ECSE 484_project_work flow_new (1)" style="5%" />
 
 Three different models are generated 
 1. 4Conv_2FC + CWUR-HUP-TCGA cohort(Dataset1) 
